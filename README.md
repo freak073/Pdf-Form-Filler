@@ -26,7 +26,7 @@ used bert-base-uncased model from Hugging Face to make a PDF Form Filler
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/pdf-form-filler.git
+   git clone https://github.com/freak073/pdf-form-filler.git
    cd pdf-form-filler
    ```
 
