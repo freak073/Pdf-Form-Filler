@@ -1,0 +1,24 @@
+   <!-- templates/index.html -->
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>PDF Form Filler</title>
+       <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+   </head>
+   <body>
+       <div class="container">
+           <h1>PDF Form Filler</h1>
+           <form id="upload-form" enctype="multipart/form-data">
+               <label for="pdf">PDF File:</label>
+               <input type="file" id="pdf" name="pdf" accept="application/pdf" required>
+               <label for="knowledge_base">Knowledge Base File:</label>
+               <input type="file" id="knowledge_base" name="knowledge_base" accept=".txt" required>
+               <button type="submit">Upload and Process</button>
+           </form>
+           <div id="output"></div>
+       </div>
+       <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+   </body>
+   </html>
