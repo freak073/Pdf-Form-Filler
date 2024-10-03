@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Processor</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="upload-container">
+        <h1>Upload Files</h1>
+        <form id="uploadForm">
+            <!-- File Upload for PDFs -->
+            <div class="file-upload-wrapper">
+                <input id="pdfUpload" type="file" name="pdf" accept=".pdf" required>
+                <label for="pdfUpload" id="pdfLabel">Drag & drop or click to choose files</label>
+                <span class="file-size-info">Max file size: 10 MB</span>
+                <div id="pdfFileName" class="file-name-display"></div> <!-- To display the file name -->
+            </div>
+            <!-- File Upload for Knowledge Base -->
+            <div class="file-upload-wrapper">
+                <input id="knowledgeBase" type="file" name="knowledge_base" accept=".txt" required>
+                <label for="knowledgeBase" id="kbLabel">Drag & drop or click to choose files</label>
+                <span class="file-size-info">Max file size: 10 MB</span>
+                <div id="kbFileName" class="file-name-display"></div> <!-- To display the file name -->
+            </div>
+            
+            <button type="submit" id="processButton">
+                <span id="buttonText">Process Files</span>
+                <div id="loader" class="hidden"></div>
+            </button>    
+        
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="static/scripts.js"></script>
+</body>
+</html>
