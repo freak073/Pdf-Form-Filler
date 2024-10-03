@@ -1,5 +1,6 @@
 # Pdf-Form-Filler
 used bert-base-uncased model from Hugging Face to make a PDF Form Filler
+And Also uses The Rule based Approach
 ## Features
 
 - Upload a PDF form and a knowledge base file.
