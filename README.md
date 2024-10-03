@@ -4,7 +4,7 @@ used bert-base-uncased model from Hugging Face to make a PDF Form Filler
 
 - Upload a PDF form and a knowledge base file.
 - Extract form fields from the PDF.
-- Use BERT to map form fields to knowledge base entries.
+- Use BERT And Rules Based algorithm to map form fields to knowledge base entries.
 - Fill the form fields in the PDF.
 - Download the filled PDF.
 
