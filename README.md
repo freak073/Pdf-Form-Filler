@@ -67,19 +67,7 @@ And Also uses The Rule based Approach
 5. The filled PDF will be downloaded automatically.
 
 ## Project Structure
-pdf-form-filler/
-├── project/
-│ ├── api.py
-│ ├── templates/
-│ │ └── index.html
-│ ├── static/
-│ │ ├── css/
-│ │ │ └── styles.css
-│ │ ├── js/
-│ │ │ └── scripts.js
-│ └── output_images/
-├── requirements.txt
-└── README.md
+![image](https://github.com/user-attachments/assets/75d707d5-ef59-4838-be65-a6face676393)
 
 ## Code Overview
 
